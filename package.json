@@ -6,7 +6,7 @@
   "dev": "next dev --turbopack",
   "build": "next build --turbopack",
   "start": "next start",
-  "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+  "lint": "eslint . -c .js,.jsx,.ts,.tsx",
   "test": "node ./scripts/ci-test.js"
   },
   "dependencies": {
