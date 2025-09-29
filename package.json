@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  "dev": "next dev --turbopack",
+  "build": "next build --turbopack",
+  "start": "next start",
+  "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+  "test": "node ./scripts/ci-test.js"
   },
   "dependencies": {
     "react": "19.1.0",
